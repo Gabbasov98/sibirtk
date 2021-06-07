@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расчёт стоимости</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+
+            <header class="header header--2 ">
+                <div class="header__top">
+                    <div class="header__top-left">
+                        <a href="index.html" class="header__logo">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                        <div class="header__top-title">Комплексные логистические решения для вашего бизнеса</div>
+                    </div>
+                    <div class="header__top-right">
+                        <div class="header__top-icons">
+                            <a href="#"><img src="images/train.svg" alt=""></a>
+                            <a href="#"><img src="images/aeroplane.svg" alt=""></a>
+                            <a href="#"><img src="images/pick-up-truck.svg" alt=""></a>
+                            <a href="#"><img src="images/cargo-ship.svg" alt=""></a>
+                            <a href="#"><img src="images/delivery-truck.svg" alt=""></a>
+                        </div>
+                        <nav class="header__nav">
+                            <div class="header__nav-container">
+                                <ul>
+                                    <li class="header__nav-item"><a href="price.html">Расчет стоимости</a></li>
+                                    <li class="header__nav-item"><a href="job.html">Услуги</a></li>
+                                    <li class="header__nav-item"><a href="contacts.html">Контакты</a></li>
+                                    <li class="header__nav-item"><a href="import.html">Импорт из Китая</a></li>
+                                    <li class="header__nav-item"><a href="partnership.html">Сотрудничество</a></li>
+                                </ul>
+                                <a href="tel:+79509895555" class="header__phone">+7 (950) 989-55-55</a>
+                                <button class="header__btn">Заказать звонок</button>
+                            </div>
+                        </nav>
+
+                    </div>
+                    <div class="header__burger ">
+
+                    </div>
+                </div>
+
+            </header>
+            <section class="main main--price main--2" style="background-image: url('images/headerbg2.jpg');">
+                <div class="container">
+                    <div class="main__middle main__middle--2">
+                        <h1 class="main__title">Расчет стоимости <br> грузоперевозки</h1>
+                        <div class="main__desc">Проанализируем имеющиеся задачи, актуальные <br> тарифы и произведем индивидуальный расчет <br> тарифов в самое ближайшее время</div>
+
+                    </div>
+                    <div class="main__bottom main__bottom--price">
+                        <a href="#" class="main__item">
+                            <img src="images/map.svg" alt="">
+                            <span>Доставляем во все регионы России и другие страны</span>
+                        </a>
+                        <a href="#" class="main__item">
+                            <img src="images/shield.svg" alt="">
+                            <span>Страхование вашего груза при транспортировке</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="calc calc--price">
+                <div class="container">
+                    <div class="calc__inner">
+                        <div class="calc__top">
+                            <h2 class="calc__title">Заполните форму ниже,<br>чтобы получить актуальную <br> стоимость и сроки</h2>
+                            <p class="calc__desc">Вместе с командой “Сибирь-ТК” вам больше не понадобятся собственные специалисты по транспортной логистике</p>
+                        </div>
+                        <form action="" class="calc__form">
+                            <div class="calc__from">
+                                <input type="text" placeholder="Откуда">
+                            </div>
+                            <div class="calc__to">
+                                <input type="text" placeholder="Куда">
+                            </div>
+                            <div class="calc__scheme">
+                                <p class="calc__scheme-title">Схема отправки</p>
+                                <div class="calc__scheme-radios">
+                                    <div class="calc__scheme-radio">
+                                        <input type="radio" name="scheme" class="radio" id="scheme1" />
+                                        <label for="scheme1">
+                                            Склад - склад
+                                        </label>
+                                    </div>
+                                    <div class="calc__scheme-radio">
+                                        <input type="radio" name="scheme" class="radio" id="scheme2" />
+                                        <label for="scheme2">
+                                            Склад - станция
+                                        </label>
+                                    </div>
+                                    <div class="calc__scheme-radio">
+                                        <input checked type="radio" name="scheme" class="radio" id="scheme3" />
+                                        <label for="scheme3">
+                                            Станция - склад
+                                        </label>
+                                    </div>
+                                    <div class="calc__scheme-radio">
+                                        <input type="radio" name="scheme" class="radio" id="scheme4" />
+                                        <label for="scheme4">
+                                            Станция - станция
+                                        </label>
+                                    </div>
+                                    <div class="calc__scheme-radio">
+                                        <input type="radio" name="scheme" class="radio" id="scheme5" />
+                                        <label for="scheme5">
+                                            Другое
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="calc__extra">
+                                <p class="calc__extra-title">Дополнительно</p>
+                                <div class="calc__extra-checkboxes">
+                                    <div class="calc__extra-checkbox">
+                                        <input type="checkbox" class="checkbox" id="extra1" />
+                                        <label for="extra1">
+                                            Высокая срочность
+                                        </label>
+                                    </div>
+                                    <div class="calc__extra-checkbox">
+                                        <input type="checkbox" class="checkbox" id="extra2" />
+                                        <label for="extra2">
+                                            Страхование груза
+                                        </label>
+                                    </div>
+                                    <div class="calc__extra-checkbox">
+                                        <input checked type="checkbox" class="checkbox" id="extra3" />
+                                        <label for="extra3">
+                                            Хранение
+                                        </label>
+                                    </div>
+                                    <div class="calc__extra-checkbox">
+                                        <input type="checkbox" class="checkbox" id="extra4" />
+                                        <label for="extra4">
+                                            Декларирование
+                                        </label>
+                                    </div>
+                                    <div class="calc__extra-checkbox">
+                                        <input type="checkbox" class="checkbox" id="extra5" />
+                                        <label for="extra5">
+                                            Таможенное оформ-е
+                                        </label>
+                                    </div>
+                                    <div class="calc__extra-checkbox">
+                                        <input type="checkbox" class="checkbox" id="extra6" />
+                                        <label for="extra6">
+                                            ВЭД
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="calc__cargo-weight">
+                                <input type="text" placeholder="Вес/габариты грузов">
+                            </div>
+                            <div class="calc__cargo-name">
+                                <input type="text" placeholder="Наименование груза">
+                            </div>
+                            <div class="calc__info">
+                                <input class="calc__info-name" type="text" placeholder="Ваше имя*">
+                                <input class="calc__info-tel" type="tel" placeholder="Контактный телефон*">
+                                <input class="calc__info-email" type="email" placeholder="E-mail*">
+                                <input class="calc__info-co" type="text" placeholder="Компания">
+                                <textarea class="calc__info-com" placeholder="Комментарий"></textarea>
+                                <button class="calc__info-btn btn1">
+                                    <span>Получить расчет</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.5 4.25H7.25V4.5V6V6.25H7.5H16.3389L4.32322 18.2657L4.14645 18.4425L4.32322 18.6193L5.38072 19.6768L5.5575 19.8536L5.73428 19.6768L17.75 7.66105V16.5V16.75H18H19.5H19.75V16.5V4.5V4.25H19.5H7.5Z" fill="#FFF" stroke="#FFF" stroke-width="0.5"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="calc__agree">
+                                Впервые столкнулись с необходимостью организации грузоперевозок?<br>
+                                <a href="#">Получить консультацию</a>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="complex">
+                <div class="container">
+                    <div class="complex__top">
+
+                        <p class="complex__top-title">Требуется комплексный подход <br> к решению логистических задач <br> Вашей компании?</p>
+                        <p class="complex__top-desc">Подберем готовое отраслевое решение из базы “Сибирь-ТК” <br> или разработаем индивидуальные логистические схемы</p>
+                        <img src="images/macbook.png" alt="" class="complex__top-img">
+                        <div class="complex__top-buttons">
+                            <button class="complex__top-fullbtn  btn2">
+                                <span>Полный перечень возможностей</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.75 1.5H14.121C13.812 0.627 12.978 0 12 0C11.022 0 10.188 0.627 9.8775 1.5H8.25C7.836 1.5 7.5 1.836 7.5 2.25V5.25C7.5 5.664 7.836 6 8.25 6H15.75C16.164 6 16.5 5.664 16.5 5.25V2.25C16.5 1.836 16.164 1.5 15.75 1.5Z" fill="#5489F0"/>
+                                    <path d="M19.5 3H18V5.25C18 6.4905 16.9905 7.5 15.75 7.5H8.25C7.0095 7.5 6 6.4905 6 5.25V3H4.5C3.6735 3 3 3.6735 3 4.5V22.5C3 23.3415 3.6585 24 4.5 24H19.5C20.3415 24 21 23.3415 21 22.5V4.5C21 3.6585 20.3415 3 19.5 3ZM11.781 16.281L8.781 19.281C8.634 19.4265 8.442 19.5 8.25 19.5C8.058 19.5 7.866 19.4265 7.719 19.281L6.219 17.781C5.9265 17.4885 5.9265 17.013 6.219 16.7205C6.5115 16.428 6.987 16.428 7.2795 16.7205L8.25 17.6895L10.719 15.2205C11.0115 14.928 11.487 14.928 11.7795 15.2205C12.072 15.513 12.0735 15.987 11.781 16.281ZM11.781 10.281L8.781 13.281C8.634 13.4265 8.442 13.5 8.25 13.5C8.058 13.5 7.866 13.4265 7.719 13.281L6.219 11.781C5.9265 11.4885 5.9265 11.013 6.219 10.7205C6.5115 10.428 6.987 10.428 7.2795 10.7205L8.25 11.6895L10.719 9.2205C11.0115 8.928 11.487 8.928 11.7795 9.2205C12.072 9.513 12.0735 9.987 11.781 10.281ZM17.25 18H14.25C13.836 18 13.5 17.664 13.5 17.25C13.5 16.836 13.836 16.5 14.25 16.5H17.25C17.664 16.5 18 16.836 18 17.25C18 17.664 17.664 18 17.25 18ZM17.25 12H14.25C13.836 12 13.5 11.664 13.5 11.25C13.5 10.836 13.836 10.5 14.25 10.5H17.25C17.664 10.5 18 10.836 18 11.25C18 11.664 17.664 12 17.25 12Z" fill="#5489F0"/>
+                                </svg>
+                            </button>
+                            <button class="complex__top-telbtn btn3">
+                                <span>Свяжитесь со мной по телефону</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 9.75H16.5C16.4994 9.15345 16.2622 8.5815 15.8403 8.15967C15.4185 7.73784 14.8466 7.5006 14.25 7.5V6C15.2442 6.00119 16.1973 6.39666 16.9003 7.09966C17.6033 7.80267 17.9988 8.7558 18 9.75Z" fill="white"/>
+                                    <path d="M21 9.75H19.5C19.4984 8.3581 18.9448 7.02367 17.9606 6.03944C16.9763 5.05522 15.6419 4.50159 14.25 4.5V3C16.0396 3.00199 17.7553 3.71378 19.0208 4.97922C20.2862 6.24466 20.998 7.9604 21 9.75Z" fill="white"/>
+                                    <path d="M15.25 16.1115L16.93 14.4315C17.1549 14.2066 17.4408 14.0526 17.7524 13.9886C18.0639 13.9246 18.3874 13.9534 18.6828 14.0715L20.7288 14.8905C21.0303 15.0112 21.2888 15.2194 21.4709 15.4884C21.653 15.7574 21.7503 16.0747 21.7503 16.3995V20.1203C21.7508 20.3414 21.7062 20.5603 21.6192 20.7636C21.5321 20.9669 21.4045 21.1504 21.2442 21.3026C21.0838 21.4549 20.8941 21.5729 20.6865 21.6493C20.479 21.7257 20.2581 21.7589 20.0373 21.747C5.69576 20.8545 2.79926 8.70751 2.26151 4.05601C2.23546 3.8286 2.25786 3.59826 2.32722 3.38013C2.39658 3.16201 2.51133 2.96104 2.66394 2.79044C2.81654 2.61984 3.00353 2.48349 3.21261 2.39034C3.42169 2.29719 3.64812 2.24937 3.87701 2.25001H7.53176C7.85656 2.25 8.17392 2.3473 8.44288 2.52938C8.71185 2.71146 8.9201 2.96995 9.04076 3.27151L9.85901 5.31751C9.97709 5.61284 10.0059 5.93633 9.94193 6.24788C9.87794 6.55944 9.72394 6.84538 9.49901 7.07026L7.81901 8.75026C7.81901 8.75026 8.75051 15.2993 15.25 16.1115Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="complex__bottom">
+                        <div class="complex__bottom-info">
+                            <p class="complex__bottom-title">Исполнено контрактов <br> на сумму <span>>100 млрд. руб</span></p>
+                            <p class="complex__bottom-desc">Огромный опыт реализации логистических задач в различных отраслях: от непродовольственных товаров до угля и деловой древесины</p>
+
+                        </div>
+                        <form action="" class="complex__form">
+                            <input type="text" placeholder="Введите сферу деятельности">
+                            <button class="complex__form-btn btn1">
+                                <span>Узнать больше</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.5 4.25H7.25V4.5V6V6.25H7.5H16.3389L4.32322 18.2657L4.14645 18.4425L4.32322 18.6193L5.38072 19.6768L5.5575 19.8536L5.73428 19.6768L17.75 7.66105V16.5V16.75H18H19.5H19.75V16.5V4.5V4.25H19.5H7.5Z" fill="#FFF" stroke="#FFF" stroke-width="0.5"/>
+                                </svg>
+                            </button>
+                        </form>
+                        <div class="complex__form-desc">Узнайте больше о комплексных отраслевых решениях “Сибирь-ТК” <br> <a href="">Перейти на страницу “О компании”</a></div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__col">
+                        <a href="#" class="footer__item">Транспортные услуги</a>
+                        <a href="#" class="footer__item">Импорт из Китая</a>
+                        <a href="#" class="footer__item">Сотрудничество</a>
+                        <a href="index.html" class="footer__logo">
+                            <img src="images/logo.png" alt="">
+                        </a>
+
+
+                    </div>
+                    <div class="footer__col">
+                        <a href="#" class="footer__item">Продать контейнер</a>
+                        <a href="#" class="footer__item">Вакансии</a>
+                        <a href="#" class="footer__item">О компании</a>
+                        <p class="footer__privacy">
+                            Сибирь-ТК 2021. <br> Все права защищены. <br>
+                            <a href="#">Политика конфиденциальности</a>
+                        </p>
+
+
+                    </div>
+                    <div class="footer__col">
+                        <p class="footer__inn footer__info">ООО “Сибирь-ТК” <br> ИНН 000000000000</p>
+                        <div class="footer__info">
+                            Офис в г. Красноярск <br> ул. Маерчака 31а, оф. 501 <br> тел: <a href=" +73910000000"> +7 (391) 000-00-00</a> <br> пн-пт с 9:00 до 18:00
+                        </div>
+                        <div class="footer__info">
+                            Офис в г. Москва <br> по предварительному звонку <br> тел: <a href=" +73910000000"> +7 (391) 000-00-00</a>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <div class="footer__info">
+                            Клиентский отдел <br>
+                            <a href="mailto:info@sibir-tk.com">info@sibir-tk.com</a>
+                        </div>
+                        <div class="footer__info">
+                            Карьера в компании <br>
+                            <a href="mailto:hr@sibir-tk.com">hr@sibir-tk.com</a>
+                        </div>
+                        <div class="footer__info">
+                            Работа с vip-клиентами <br>
+                            <a href="mailto:vip@sibir-tk.com">vip@sibir-tk.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
