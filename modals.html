@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модалки</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .modal-open {
+            border: 1px solid black;
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 300px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button class="modal-open" data-tabs-path="modal1">modal1</button>
+    <button class="modal-open" data-tabs-path="modal2">modal2</button>
+
+    <section id="modal1" class="modal-form" data-tabs-target="modal1">
+        <button class="modal-form__close">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.41 18.0002L27.7 9.71019C27.8638 9.51888 27.9494 9.27281 27.9397 9.02113C27.93 8.76946 27.8256 8.53072 27.6475 8.35262C27.4694 8.17453 27.2307 8.0702 26.979 8.06047C26.7274 8.05075 26.4813 8.13636 26.29 8.30019L18 16.5902L9.70997 8.29019C9.52167 8.10188 9.26627 7.99609 8.99997 7.99609C8.73367 7.99609 8.47828 8.10188 8.28997 8.29019C8.10167 8.47849 7.99588 8.73388 7.99588 9.00019C7.99588 9.26649 8.10167 9.52188 8.28997 9.71019L16.59 18.0002L8.28997 26.2902C8.18529 26.3798 8.10027 26.4902 8.04025 26.6142C7.98022 26.7383 7.94649 26.8734 7.94117 27.0111C7.93586 27.1488 7.95906 27.2862 8.00934 27.4145C8.05961 27.5428 8.13587 27.6594 8.23332 27.7568C8.33078 27.8543 8.44732 27.9305 8.57565 27.9808C8.70398 28.0311 8.84131 28.0543 8.97903 28.049C9.11675 28.0437 9.25188 28.0099 9.37594 27.9499C9.50001 27.8899 9.61033 27.8049 9.69997 27.7002L18 19.4102L26.29 27.7002C26.4813 27.864 26.7274 27.9496 26.979 27.9399C27.2307 27.9302 27.4694 27.8258 27.6475 27.6477C27.8256 27.4697 27.93 27.2309 27.9397 26.9792C27.9494 26.7276 27.8638 26.4815 27.7 26.2902L19.41 18.0002Z" fill="#5489F0"/>
+            </svg>
+        </button>
+        <div class="modal-form__inner">
+            <h2 class="modal-form__title">Заполните форму ниже</h2>
+            <p class="modal-form__desc">Менеджер свяжется с Вами в течение рабочего дня</p>
+            <form action="">
+                <input class="modal-form__name" type="text" placeholder="Ваше имя*">
+                <input class="modal-form__phone" type="tel" placeholder="Контактный телефон*">
+                <input class="modal-form__mail" type="email" placeholder="E-mail*">
+                <input class="modal-form__co" type="text" placeholder="Компания">
+                <button class="modal-form__btn btn1">
+                    <span>Получить расчет</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.5 4.25H7.25V4.5V6V6.25H7.5H16.3389L4.32322 18.2657L4.14645 18.4425L4.32322 18.6193L5.38072 19.6768L5.5575 19.8536L5.73428 19.6768L17.75 7.66105V16.5V16.75H18H19.5H19.75V16.5V4.5V4.25H19.5H7.5Z" fill="#FFF" stroke="#FFF" stroke-width="0.5"></path>
+                    </svg>
+                </button>
+            </form>
+            <p class="modal-form__agree">
+                Политика безопасности песональных данных: полученная информация используется исключительно в целях коммуникации с пользователями, заполнившими данную форму обратной связи. Компания ООО “Сибирь-ТК” обязуется не разглашать полученную информацию третьим
+                лицам.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="modal2" class=" modal-form modal-form--bg" data-tabs-target="modal2">
+        <button class="modal-form__close">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.41 18.0002L27.7 9.71019C27.8638 9.51888 27.9494 9.27281 27.9397 9.02113C27.93 8.76946 27.8256 8.53072 27.6475 8.35262C27.4694 8.17453 27.2307 8.0702 26.979 8.06047C26.7274 8.05075 26.4813 8.13636 26.29 8.30019L18 16.5902L9.70997 8.29019C9.52167 8.10188 9.26627 7.99609 8.99997 7.99609C8.73367 7.99609 8.47828 8.10188 8.28997 8.29019C8.10167 8.47849 7.99588 8.73388 7.99588 9.00019C7.99588 9.26649 8.10167 9.52188 8.28997 9.71019L16.59 18.0002L8.28997 26.2902C8.18529 26.3798 8.10027 26.4902 8.04025 26.6142C7.98022 26.7383 7.94649 26.8734 7.94117 27.0111C7.93586 27.1488 7.95906 27.2862 8.00934 27.4145C8.05961 27.5428 8.13587 27.6594 8.23332 27.7568C8.33078 27.8543 8.44732 27.9305 8.57565 27.9808C8.70398 28.0311 8.84131 28.0543 8.97903 28.049C9.11675 28.0437 9.25188 28.0099 9.37594 27.9499C9.50001 27.8899 9.61033 27.8049 9.69997 27.7002L18 19.4102L26.29 27.7002C26.4813 27.864 26.7274 27.9496 26.979 27.9399C27.2307 27.9302 27.4694 27.8258 27.6475 27.6477C27.8256 27.4697 27.93 27.2309 27.9397 26.9792C27.9494 26.7276 27.8638 26.4815 27.7 26.2902L19.41 18.0002Z" fill="#ffffff"/>
+            </svg>
+        </button>
+        <div class="modal-form__inner">
+            <h2 class="modal-form__title">Заполните форму ниже</h2>
+            <p class="modal-form__desc">Специалист свяжется с Вами в течение рабочего дня</p>
+            <form action="">
+                <input class="modal-form__name" type="text" placeholder="Ваше имя*">
+                <input class="modal-form__phone" type="tel" placeholder="Контактный телефон*">
+                <input class="modal-form__mail" type="email" placeholder="E-mail*">
+                <input class="modal-form__co" type="text" placeholder="Компания">
+                <button class="modal-form__btn btn1">
+                    <span>Получить расчет</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.5 4.25H7.25V4.5V6V6.25H7.5H16.3389L4.32322 18.2657L4.14645 18.4425L4.32322 18.6193L5.38072 19.6768L5.5575 19.8536L5.73428 19.6768L17.75 7.66105V16.5V16.75H18H19.5H19.75V16.5V4.5V4.25H19.5H7.5Z" fill="#FFF" stroke="#FFF" stroke-width="0.5"></path>
+                    </svg>
+                </button>
+            </form>
+            <p class="modal-form__agree">
+                100% конфиденциальность переданных данных
+            </p>
+        </div>
+        <div class="modal-form__img">
+            <div class="modal-form__info">Ваш персональный логистический партнер
+            </div>
+            <img src="" alt="">
+        </div>
+    </section>
+
+    <div class="modal-bg"></div>
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

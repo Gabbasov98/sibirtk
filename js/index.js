@@ -75,5 +75,19 @@ $(document).ready(function() {
         $(".header__nav").slideToggle();
     })
 
+    $(".modal-open").click(function() {
+        let path = $(this).attr("data-tabs-path");
+        console.log(path);
+        $(`.modal-form[data-tabs-target='${path}']`).addClass("modal--active");
+        $(".modal-bg").show()
+    })
 
+    $(".modal-form__close").click(function() {
+        $(this).parent().removeClass("modal--active")
+        $(".modal-bg").hide()
+    })
+    $(".modal-bg").click(function() {
+        $(".modal-form").removeClass("modal--active")
+        $(".modal-bg").hide()
+    })
 })
